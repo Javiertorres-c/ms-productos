@@ -193,6 +193,5 @@ docker build -t ms-productos .
 
 # URL del servicio desplegado
 
-```text
-PENDIENTE
-```
+https://ms-productos-le1k.onrender.com
+
