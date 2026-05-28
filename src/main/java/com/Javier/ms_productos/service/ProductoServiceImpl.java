@@ -36,7 +36,7 @@ public class ProductoServiceImpl implements ProductoService {
     @Override
     public List<ProductoResponse> listar() {
 
-        return repo.findAll()
+        return repo.findByEstadoTrue()
                 .stream()
                 .map(this::toResponse)
                 .toList();
